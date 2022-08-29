@@ -1,0 +1,7 @@
+services:
+  container_1:
+    build: ./my_cont
+  container_2:
+    build: ./nginx_cont
+    ports:
+    - "80:8080"
